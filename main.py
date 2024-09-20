@@ -440,7 +440,7 @@ def generate_dataframe(size=100):
 st.title('가상 한국인 프로필 생성기')
 
 # 사용자 입력
-num_pairs = st.number_input('생성할 남녀(쌍) 개수를 입력하세요', min_value=1, max_value=100, value=5)
+num_pairs = st.number_input('생성할 남녀(쌍) 개수를 입력하세요', min_value=1, max_value=1000, value=5)
 
 if st.button('프로필 생성'):
     # 데이터프레임 생성
